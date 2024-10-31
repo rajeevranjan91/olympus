@@ -15,3 +15,15 @@ Pre-requisite: Install NodeJS(version 20 or higher), Java JDK (21 or higher). gi
 
    Open UI and go to the link:
    http://localhost:8080/index.html
+
+Olympus Gateway
+Install python 3.7 for windows
+Add python folder scripts to the path eg: %PATH%;C:\Users\ranja\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\ranja\AppData\Local\Programs\Python\Python313\
+python -m pip install request
+python -m pit install flask
+
+cd to folder olympusAIGateway
+You need two windows command terming. In one run the server and in another test it out.
+In one terminal run: .\runServer.cmd
+In another: python testGateway.py
+
