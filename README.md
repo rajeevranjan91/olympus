@@ -1,9 +1,10 @@
 ## Olympus Project structure:
-###     UI - In ReactJS using NodeJS(20.11.1).  
-###     Server - Java(21.0.1) using SpringBoot 
-###     ServerGateway to AI - Python3.13 
+#### Project has below three components
+    UI - In ReactJS using NodeJS(20.11.1).  
+    Server - Java(21.0.1) using SpringBoot 
+    Gateway to AI - Python3.13   
 
-## For UI and server build and run do the following (on Windows machine)
+## For UI and Server build and run do the following (on Windows machine)
 Pre-requisite: Install NodeJS(version 20 or higher), Java JDK (21 or higher). git (latest version)   
 1) choose any folder you want to store your code into. Open windows command line tool and cd into it.   
 2) Run: **git clone https://github.com/rajeevranjan91/olympus.git**   
