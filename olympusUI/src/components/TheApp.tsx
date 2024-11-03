@@ -1,6 +1,6 @@
 function TheApp() {
     return <div>
-        <h2>Hello from Olympus</h2>
+        <h2>Hello from Olympus APP</h2>
         </div>;
 }
 
