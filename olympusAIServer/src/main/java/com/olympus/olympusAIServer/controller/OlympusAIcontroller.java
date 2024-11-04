@@ -20,7 +20,7 @@ import com.olympus.olympusAIServer.vo.Info;
 public class OlympusAIcontroller {
 Logger logger = LoggerFactory.getLogger(OlympusAIcontroller.class);
 
-    Info info = new Info("Team Olympus", "Hello World");
+    Info info = new Info("Project Olympus", "Hello World!!");
 
 
     @Bean
