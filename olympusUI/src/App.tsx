@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css'
-import Splash from './components/splash'
-import TheApp from './components/theApp';
+import Splash from './components/Splash'
+import TheApp from './components/TheApp';
 
 function App() {
  const [splash, setSplash ]= useState(true);
