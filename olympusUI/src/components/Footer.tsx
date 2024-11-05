@@ -1,6 +1,6 @@
 function Footer() {
     return <div>
-        <h2>Hello from footer</h2>
+        <h2>Footer</h2>
         </div>;
 }
 

@@ -1,6 +1,14 @@
+import Footer from "./Footer";
+import Header from "./Header";
+import Output from "./Output";
+import Prompter from "./Prompter";
+
 function TheApp() {
     return <div>
-        <h2>Hello from Olympus APP</h2>
+        <Header/>
+        <Prompter/>
+        <Output/>
+        <Footer/>
         </div>;
 }
 

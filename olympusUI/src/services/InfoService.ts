@@ -12,6 +12,9 @@ export interface Info {
 export const getInfo = async(): Promise<Info> => {
     console.log('Inside service getInfo...');
 
+    if(import.meta.env.MODE == "development"){
+        return {teamName:"Dev-mode", greeting: "Hello from Olympus"};
+    }
     try{
         const data:Info = (await client.get<Info>("info")).data;
         console.log(data);

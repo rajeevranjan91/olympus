@@ -1,6 +1,6 @@
 function Header() {
     return <div>
-        <h2>Hello from header</h2>
+        <h2>Header</h2>
         </div>;
 }
 

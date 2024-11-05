@@ -1,6 +1,6 @@
 function Output() {
     return <div>
-        <h2>Hello from Output</h2>
+        <h2>Output</h2>
         </div>;
 }
 

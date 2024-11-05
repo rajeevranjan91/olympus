@@ -1,6 +1,6 @@
 function Prompter() {
     return <div>
-        <h2>Hello from prpmpter</h2>
+        <h2>Prompter</h2>
         </div>;
 }
 
