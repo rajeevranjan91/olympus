@@ -1,4 +1,8 @@
+@echo off
 cd ..\olympusUI
-npm run build
+rem npm run build
 cd ..\olympusAIServer
-call .\mvnw.cmd clean package spring-boot:run
+
+call mvnw.cmd "clean"
+
+call mvnw.cmd "spring-boot:run"
