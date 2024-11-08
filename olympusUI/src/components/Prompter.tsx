@@ -14,6 +14,7 @@ function Prompter({question, submitHandler}: PropData) {
     console.log("Input question at submit is:" + inputQuestion);
     console.log("Value of target is:" + e.target);
     submitHandler(inputQuestion);
+    setInputQuestion("");
   }
 
 return <div>
@@ -24,7 +25,6 @@ return <div>
             value={inputQuestion}
             onChange={(event: React.ChangeEvent<HTMLInputElement>):void =>{
               setInputQuestion(event.target.value);
-              console.log("Input question is:" + inputQuestion)
             }}
             placeholder={"Type your question here..."}
             className="w-full pl-4 pr-12 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all"

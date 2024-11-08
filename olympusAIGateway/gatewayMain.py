@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 def getResponse(question:str):
-    response = {"responseStr": "My placeholder response is: Hello World"}
+    response = {"responseStr": "My placeholder response is: Hello World New"}
     return response
 
 

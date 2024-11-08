@@ -14,16 +14,13 @@ const handleSubmit = (questionStr:string) => {
   if (questionStr.trim()) {
     const req: AIRequest = {'question': questionStr};
     invokeAI(req).then(resp => {
-        console.log("Response received from service:" + resp.responseStr)
-        const newAnwers = [resp];
-        if(answers && newAnwers.length>0){
-          answers.forEach(answer => newAnwers.push(answer));
-        }
+        console.log("Response received from service:" + resp.responseStr);
+        const newAnwers: AIResponse[] = [{responseStr: "Qustion:" + questionStr + " Answer:" + resp.responseStr}, ...answers];
         setAnswers(newAnwers);
         console.log("Num answers:" + answers.length);
     });
   }
-  setQuestion(questionStr);
+  setQuestion("");
 };
 
 return (<>

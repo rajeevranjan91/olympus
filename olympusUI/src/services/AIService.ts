@@ -19,7 +19,7 @@ export const invokeAI = async(req :AIRequest): Promise<AIResponse> => {
         return {responseStr:"This is a dummy response on behalf of AI Service as the app is running in Dev mode."};
     }
     try{
-        const res:AIResponse = (await client.get<AIResponse>("invokeAI")).data;
+        const res:AIResponse = (await client.post<AIResponse>("askAI", req)).data;
         console.log(res);
         return res;
     }catch(error){
