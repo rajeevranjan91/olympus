@@ -36,4 +36,6 @@ Run the Gateway as mentioned in Gateway Section upto step 4
 3) Run the below command and check the output
  *python testGateway.py*  
 
+## Google Meet Link
+https://meet.google.com/kps-zgmg-jrv
 
