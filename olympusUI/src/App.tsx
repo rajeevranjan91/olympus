@@ -19,7 +19,9 @@ function App() {
  }, [])
 
   return (
-    splash ? <Splash data={info} /> : <TheApp/>
+    <div className="bg-gradient-to-r from-indigo-500 to-purple-500 h-screen flex items-center justify-center p-4">
+    {splash ? <Splash data={info} /> : <TheApp/>}
+    </div>
   )
 }
 
