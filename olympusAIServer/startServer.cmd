@@ -1,6 +1,6 @@
 @echo off
 cd ..\olympusUI
-rem npm run build
+npm run build
 cd ..\olympusAIServer
 
 call mvnw.cmd "clean"
